@@ -13,37 +13,50 @@ html, body {
 }
 
 body {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Overlock', cursive;
+    font-size: 1.1rem;
     display: block;
     background-image: url('../images/background.png');
     height: 100%;
     width: 100%;
     color: #140A25;
-
+    line-height: 1.5;
 }
 
+.page-name {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Parisienne', cursive;
+}
 
 #bkg-img {
     background-image: url("./assets/images/background.png");
     height: 100%;
     width: 100%;
     background-size: cover;
-}    
+} 
 
-a:link {
-    color: #140A25; 
+#link-dec {
+    font-size: 1.3rem;
+}
+
+#link-dec:link {
+    color: blueviolet; 
     background-color: transparent; 
     text-decoration: none;
   }
   
-  a:visited {
+#link-dec:visited {
     color: plum;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
-    color: blueviolet;
+#link-dec:hover {
+    color: #140A25;
     background-color: transparent;
     text-decoration: underline;
     -o-transition:5s;
@@ -65,24 +78,17 @@ a:link {
     margin-top: 5%;
 }
 
-.main-content {
-    margin-left: 3%;
-    margin-right: 3%;
-    width: auto;
-    height: 100%;
-    vertical-align: center;
-}
-
 .about-me {
     border-bottom: solid gray 1px;
     margin: 0 1% 1% 1%;
 }
 
-img {
+.profile-img {
     float: left;
     margin-right: 1%;
     margin-left: 1%;
-    margin-bottom: 7%;
+    margin-bottom: 1%;
+    border: .25rem solid gray;
 }
 
 form {
@@ -93,8 +99,8 @@ form {
     position: static;
     left: 15%;
     top: 10%;
-    margin: 5% 15%;
-    padding: 3%;
+    margin: 2% 3%;
+    padding: .5%;
 
 }
 
@@ -118,5 +124,20 @@ form {
     text-align: center;
     vertical-align: center;
     padding: 20px;
-}    
+}   
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: .5%;
+    border-radius: 50%;
+  }
+
+.fa-github {
+    background: black;
+    color: white;
+    padding: .5%;
+    border-radius: 50%;
+}
 
